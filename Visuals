@@ -1,5 +1,4 @@
 --ARRAY LIST AUTOMATIC BECAUSE IM SO LAZYYYYYYYYY (sorry) :(
-
 local _4nHJFkrms8 = Instance.new("ScreenGui")
 local Logo1 = Instance.new("Frame")
 local Logo1_2 = Instance.new("TextLabel")
@@ -18,7 +17,6 @@ local Aura = Instance.new("TextLabel")
 local Chams = Instance.new("TextLabel")
 local ChestStealer = Instance.new("TextLabel")
 local DamageFlight = Instance.new("TextLabel")
-local FastPickup = Instance.new("TextLabel")
 local Flight = Instance.new("TextLabel")
 local Highjump = Instance.new("TextLabel")
 local Longjump = Instance.new("TextLabel")
@@ -175,17 +173,6 @@ DamageFlight.Font = Enum.Font.TitilliumWeb
 DamageFlight.Text = "DamageFlight - {TP}"
 DamageFlight.TextColor3 = Color3.fromRGB(0, 0, 0)
 DamageFlight.TextSize = 23.000
-FastPickup.Name = "FastPickup"
-FastPickup.Parent = Modules
-FastPickup.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-FastPickup.BackgroundTransparency = 1.000
-FastPickup.BorderSizePixel = 0
-FastPickup.Position = UDim2.new(0, 0, -0.0135135129, 0)
-FastPickup.Size = UDim2.new(0, 130, 0, 50)
-FastPickup.Font = Enum.Font.TitilliumWeb
-FastPickup.Text = "FastPickup"
-FastPickup.TextColor3 = Color3.fromRGB(0, 0, 0)
-FastPickup.TextSize = 23.000
 Flight.Name = "Flight"
 Flight.Parent = Modules
 Flight.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
@@ -263,10 +250,10 @@ Speed.Font = Enum.Font.TitilliumWeb
 Speed.Text = "Speed - {Heatseeker}"
 Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
 Speed.TextSize = 23.000
-local function IUEUJC_fake_script() -- Notifs.LocalScript 
+local function DINS_fake_script() -- Notifs.LocalScript 
 	local script = Instance.new('LocalScript', Notifs)
 
 	task.wait(2.5)
 	script.Parent:Destroy()
 end
-coroutine.wrap(IUEUJC_fake_script)()
+coroutine.wrap(DINS_fake_script)()
